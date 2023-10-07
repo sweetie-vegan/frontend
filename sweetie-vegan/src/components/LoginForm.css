@@ -1,0 +1,261 @@
+/* a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+} */
+
+/* img,
+video {
+  height: auto;
+  width: 100%;
+} */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+}
+
+.message {
+  display: none;
+}
+
+.showMessage {
+  display: block;
+  color: white;
+  padding: 10px;
+  background: red;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.loginBtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  color: white;
+  background: #f25019;
+  justify-content: center;
+}
+
+.loginBtn .loginIcon {
+  margin-left: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  color: white;
+  background: pink;
+
+  .loginIcon {
+    transform: translateX(5px);
+    transition: 0.3s ease;
+  }
+}
+
+.loginPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 7px 50px rgb(214, 223, 213);
+  /* margin-top: -10px; */
+}
+
+.loginContainer {
+  height: 75vb;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #fbf8f1;
+}
+
+.videoDiv {
+  position: relative;
+  display: flex;
+  flex-basis: 50%;
+  width: 70%;
+  height: 100%;
+  padding: 0 1.5rem;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+video,
+.loginFooterDiv {
+  position: absolute;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.loginTextDiv {
+  position: relative;
+  align-items: center;
+}
+
+.loginTextDiv .loginTitle {
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+}
+.loginTextDiv .loginText {
+  color: white;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.loginFooterDiv {
+  bottom: 10px;
+  padding: 0 1rem;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.248);
+  left: 10px;
+  right: 10px;
+  justify-content: space-between;
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+}
+
+.loginFooterDiv .text {
+  color: white;
+}
+
+.loginFooterDiv .loginBtn {
+  background: white;
+  color: #f25019;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 400;
+  transition: 0.3s ease;
+
+  &:hover {
+    background: beige;
+    color: black;
+  }
+}
+
+.loginFromDiv {
+  flex-basis: 50%;
+  margin: auto;
+  flex-direction: column;
+  gap: 1.5rem;
+  transform: translateY(-1rem);
+  /* margin-top: 20px; */
+  /* justify-content: center;
+  align-items: center;
+  align-content: center; */
+}
+
+.loginHeaderDiv {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: -30px;
+}
+
+.loginHeaderDiv img {
+  width: 200px;
+  margin-bottom: -50px;
+  /* padding-bottom: 0.5rem; */
+}
+
+.loginHeaderDiv h3 {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  margin: -5px 0 -20px;
+  /* margin-bottom: -20px; */
+}
+
+.loginForm {
+  gap: 1rem;
+}
+
+.loginForm .loginInputDiv {
+  .loginIcon {
+    color: #f4afb3;
+  }
+
+  .loginInput {
+    gap: 0.5rem;
+    padding: 1rem;
+    background: #fbf8f1;
+    border-radius: 10px;
+  }
+}
+
+.loginInputDiv input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 200px;
+}
+
+.loginInputDiv label {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.forgotPassword {
+  font-size: 13px;
+  color: black;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.socialLogin {
+  font-size: 13px;
+  color: black;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.socialLoginButton {
+  padding-top: 1rem;
+}
+
+.socialLoginButton button {
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  background: white;
+
+  &:hover {
+    background: #fdeaeb;
+
+  }
+}
+
+.socialLoginButton .socialIcons {
+  /* justify-self: center; */
+  /* align-items: center; */
+  font-size: large;
+  /* text-align: center; */
+}
+
