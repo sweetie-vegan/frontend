@@ -1,0 +1,30 @@
+.addressbox {
+    resize: none;
+    border-radius: 40px;
+    border: 1px solid #bcbec0;
+    background: #fff;
+    /* width: 50%; */
+    color: black;
+    font-family: 'Gabarito', cursive;
+    padding: 1px 20px 0 20px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.addressboxfull {
+    resize: none;
+  border-radius: 40px;
+  border: 1px solid #bcbec0;
+  background: #fff;
+  width: 88%;
+  color: black;
+  font-family: 'Gabarito', cursive;
+  padding: 1px 20px 0 20px;
+  font-size: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.addressDivHalf {
+    display: flex;
+    justify-content: space-evenly;
+}

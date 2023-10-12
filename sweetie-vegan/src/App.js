@@ -9,6 +9,10 @@ import Home from './routes/Home';
 import How from './routes/How';
 import Menu from './routes/Menu';
 import Plan from './routes/Plan';
+import PlanStep1 from './routes/PlanStep1'
+import PlanStep2 from './routes/PlanStep2'
+import PlanStep3 from './routes/PlanStep3'
+import PlanStep4 from './routes/PlanStep4'
 import Contact from './routes/Contact';
 import Login from './routes/Login';
 import Register from './routes/Register';
@@ -25,6 +29,10 @@ function App() {
         <Route path='/how-it-works' element={<How />} />
         <Route path='/our-menu' element={<Menu />} />
         <Route path='/choose-plan' element={<Plan />} />
+        <Route path='/choose-plan/step1' element={<PlanStep1 />} />
+        <Route path='/choose-plan/step2' element={<PlanStep2 />} />
+        <Route path='/choose-plan/step3' element={<PlanStep3 />} />
+        <Route path='/choose-plan/step4' element={<PlanStep4 />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />

@@ -1,0 +1,125 @@
+.planPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  /* box-shadow: 0 7px 50px rgb(214, 223, 213); */
+}
+
+.planSelectDiv h2 {
+    font-size: 30px;
+}
+
+.planContainer {
+  height: 75vh;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+  border-radius: 30px;
+  background: #fbf8f1;
+}
+
+.planSelectDiv {
+  position: relative;
+  display: flex;
+  /* flex-basis: 50%; */
+  /* width: 70%; */
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+
+.planSize {
+    align-self: center;
+}
+
+.planSize button {
+  background: white;
+  padding: 2rem 2.8rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 0px rgba(184, 184, 184, 0.35);
+}
+
+.planSize button:focus {
+    border: 3px solid #AA7B6F;
+    color: pink;
+}
+
+.planSizeIcon {
+  font-size: 2rem;
+}
+
+.planFrequency button {
+  border-radius: 40px;
+  background: rgba(244, 175, 179, 0.85);
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0 0 0.5rem;
+  color: white;
+}
+
+.planFrequency button:focus {
+    border: 2px solid #aa7b6f;
+}
+
+.nextButton {
+  border-radius: 40px;
+  background: #f25019;
+  padding: 0.5rem 4rem;
+  margin: 2rem 0 0 5rem;
+  align-self: center;
+  color: white;
+}
+
+.priceSummaryContainer {
+    flex-basis: 45%;
+    padding: 0 1.5rem;
+    margin: auto;
+    width: 70%;
+    flex-direction: column;
+    gap: 1.5rem;
+    transform: translateY(-1rem);
+}
+
+.priceSummary {
+    padding: 1rem 1.5rem;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.1);
+}
+
+.priceSummaryText {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.priceSummaryInfo p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.priceTotal {
+    margin-bottom: 3rem;
+}
+
+.priceTotal p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+hr {
+    width: 70%;
+    color: rgba(0, 0, 0, 0.20);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

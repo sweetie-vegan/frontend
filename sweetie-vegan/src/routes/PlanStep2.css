@@ -1,0 +1,72 @@
+.planPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  /* box-shadow: 0 7px 50px rgb(214, 223, 213); */
+}
+
+.planContainer {
+  height: 75vh;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+  border-radius: 30px;
+  background: #fbf8f1;
+}
+
+.buttonContainer {
+  padding: 1rem 1rem;
+  text-align: center;
+  /* display: flex; */
+}
+
+.buttonContainerRow {
+  margin-bottom: 1rem;
+}
+
+.buttonContainerRow button {
+  border-radius: 40px;
+  background: rgba(244, 175, 179, 0.85);
+  color: white;
+  /* padding: 0.5rem 2rem; */
+  width: 143px;
+  height: 39px;
+  margin-left: 1.5rem;
+}
+
+.buttonContainerRow button:focus {
+    border: 3px solid #AA7B6F;
+}
+
+.allergybox {
+  resize: none;
+  border-radius: 40px;
+  border: 1px solid #bcbec0;
+  background: #fff;
+  width: 100%;
+  color: black;
+  font-family: 'Gabarito', cursive;
+  padding: 1px 20px 0 20px;
+  font-size: 15px;
+}
+
+.prevButton {
+    border-radius: 40px;
+    background: #f25019;
+    padding: 0.5rem 4rem;
+    margin: 2.5rem 0 0 2rem;
+    align-self: center;
+    color: white;
+}
+
+.nextButtonBet {
+    border-radius: 40px;
+    background: #f25019;
+    padding: 0.5rem 4rem;
+    margin: 1rem 0 0 1rem;
+    align-self: center;
+    color: white;
+}

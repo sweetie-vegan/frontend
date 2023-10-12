@@ -1,0 +1,83 @@
+.paymentbox {
+  resize: none;
+  border-radius: 40px;
+  border: 1px solid #bcbec0;
+  background: #fff;
+  /* width: 50%; */
+  color: black;
+  font-family: "Gabarito", cursive;
+  padding: 1px 20px 0 20px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.paymentboxfull {
+  resize: none;
+  border-radius: 40px;
+  border: 1px solid #bcbec0;
+  background: #fff;
+  width: 88%;
+  color: black;
+  font-family: "Gabarito", cursive;
+  padding: 1px 20px 0 20px;
+  font-size: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.paymentDivHalf {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prevButtonFin {
+  border-radius: 40px;
+  background: #f25019;
+  padding: 0.5rem 4.3rem;
+  margin: 3rem 0 0 1rem;
+  align-self: center;
+  color: white;
+}
+
+.submitButton {
+  border-radius: 40px;
+  background: #f25019;
+  padding: 0.5rem 4.1rem;
+  margin: 3rem 0 0 1rem;
+  align-self: center;
+  color: white;
+}
+
+.paymentSummaryContainer {
+  flex-basis: 40%;
+  padding: 0 1.5rem;
+  margin: auto;
+  width: 70%;
+  flex-direction: column;
+  gap: 1.5rem;
+  transform: translateY(-1rem);
+}
+
+.cardImgs {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cardIcons {
+  font-size: 2.5rem;
+  width: 70%;
+  height: auto;
+  object-fit: none;
+}
+
+.priceFinal {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 0;
+  /* bottom: 0; */
+}

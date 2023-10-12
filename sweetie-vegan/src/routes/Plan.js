@@ -1,6 +1,8 @@
+import ChoosePlan from "../components/ChoosePlan";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import PlanStep1 from "../routes/PlanStep1";
 
 function Plan() {
   return (
@@ -15,6 +17,8 @@ function Plan() {
         // url="/"
         btnClass="hide"
       />
+      <PlanStep1 />
+      {/* <ChoosePlan /> */}
       <Footer />
     </>
   );
